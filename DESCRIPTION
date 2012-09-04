@@ -1,0 +1,1 @@
+Turns standard input (possibly a pipe) into a seekable file descriptor

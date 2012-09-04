@@ -1,0 +1,18 @@
+2004-11-17 21:50  geocar
+
+	* unix/seekable.c: run logs daily, seekable should avoid any work
+	  or inode wastage if input is already seekable
+
+2004-11-16 22:46  geocar
+
+	* unix/seekable.c: seekable actually rewinds, hush svfilter a bit,
+	  and speed up mproc-runs
+
+2004-07-27 18:49  geocar
+
+	* unix/seekable.c: flush fixes
+
+2004-07-27 18:22  geocar
+
+	* unix/seekable.c: adding new tool: seekable
+
